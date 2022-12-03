@@ -45,11 +45,12 @@ Table of Content:
 /*----------------------------------------------------*/
 .card {
   display: flex;
-  width: 280px;
-  height: 290px;
-  background: #141414;
+  width: 300px;
+  height: 300px;
+  background: #131313;
   border-radius: 20px;
-  box-shadow: 0 35px 80px #f0ff42;
+  box-shadow: 0 35px 80px rgba(85, 171, 255, 10%);
+  border: 0.5px inset #55abff;
 }
 .imgBx {
   position: absolute;
@@ -60,7 +61,7 @@ Table of Content:
   height: 170px;
   background: #727272;
   border-radius: 20px;
-  box-shadow: 0 15px 50px #abff3d00;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 }
 .imgBx img
@@ -71,7 +72,6 @@ Table of Content:
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
 .card .content
 {
@@ -88,7 +88,7 @@ align-items: flex-end;
   padding: 20px;
   text-align: center;
   width: 100%;
-
+  
 }
 .card .content .details h2
 {
@@ -123,7 +123,7 @@ align-items: flex-end;
 }
 .card .content .details .twit span
 {
-  color: #f0ff42;
+  color: #55abff;
   font-weight: 600;
 }
 
@@ -135,8 +135,75 @@ margin-top: 200px;
 justify-content: center;
 box-sizing: border-box;
 align-items: center;
-width: 500px;
+width: 270px;
 }
+.container2
+{
+display: flex;
+margin: auto;
+margin-top: 10px;
+justify-content: center;
+box-sizing: border-box;
+align-items: center;
+width: 270px;
+height: 200px;
+}
+.container2 .dtl
+{
+ font-size: large;
+ text-align: center;
+}
+.container3
+{
+display: flex;
+margin: auto;
+margin-top: 0px;
+margin-bottom: 100px;
+justify-content: space-around;
+padding: 0 8px 0 8px;
+box-sizing: border-box;
+align-items: center;
+width: 270px;
+height: 10px;
+}
+.tak 
+{
+  color: #dedede;
+}
+.actionBtn
+{
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 10px 8px 10px;
+  font-weight: 500;
+  color: #55abff;
+  background-color: #131313;
+  cursor: pointer;  
+  font-size: 14px;
+}
+.actionBtn1
+{
+  border-radius: 20px;
+  padding: 8px 10px 8px 10px;
+  font-weight: 500;
+  color: #55abff;
+  border: 0.5px inset #55abff;
+  background-color: #131313;
+  cursor: pointer;  
+  font-size: 14px;
+  box-shadow: 0 1px 40px rgba(85, 171, 255,20%);
+}
+
+.tak:hover
+{
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 10px 8px 10px;
+ 
+}
+
+
 @media (max-width:991px)
 {
   .container1
@@ -145,7 +212,7 @@ width: 500px;
   margin: auto;
   margin-top: 200px;
   justify-content: center;
-  width: 300px;
+  width: 270px;
 } 
   
 }
@@ -178,7 +245,7 @@ body {
   color: #777777; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: "Saira", sans-serif;
   font-weight: bold; }
 
 button:focus {
@@ -265,7 +332,7 @@ button:focus {
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #f0ff42; 
+        color: #55abff; 
         font-weight: bold;
       }
       .header_area .navbar .nav .nav-item.submenu {
@@ -2613,7 +2680,7 @@ h6 {
   .wel_item i {
     font-size: 24px;
     background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
-    -webkit-background-clip: text;
+ 
     -webkit-text-fill-color: transparent; }
   .wel_item h4 {
     font-size: 24px;
@@ -2665,8 +2732,8 @@ h6 {
 /* My Tabs Area css
 ============================================================================================ */
 .mytabs_area {
-  background-image: -moz-linear-gradient(45deg, #766dff 0%, #d42222 100%);
-  background-image: -webkit-linear-gradient(90deg,#121212 0%, #141414 100%);
+  background-image: -moz-linear-gradient(45deg, #414050 0%, #d42222 100%);
+  background-image: -webkit-linear-gradient(45deg,#050505 0%, #050505 100%);
   background-image: -ms-linear-gradient(45deg, #1d1952 0%, #88f3ff 100%); }
 
 .tabs_inner .nav.nav-tabs {
@@ -2685,12 +2752,14 @@ h6 {
       font-size: 13px;
       font-weight: 500;
       color: #fff;
-      font-family: "Roboto", sans-serif;
-      border: 1px solid #abff3d;
+      font-family: "Saira", sans-serif;
+      border: 1.5px solid #55abff;
       background: rgba(255, 255, 255, 0.1); }
       .tabs_inner .nav.nav-tabs li a.active {
-        background: #fff;
-        color: #222222; }
+        background: #55abff;
+        color: #fff; 
+        font-weight: 600;
+      }
 .tabs_inner .tab-content .tab-pane .list {
   max-width: 460px;
   margin: auto;
@@ -2800,7 +2869,7 @@ h6 {
     background: #fff; }
     .feature_item:hover i:before {
       background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
-      -webkit-background-clip: text;
+     
       -webkit-text-fill-color: transparent; }
 
 /* End Feature Area css
