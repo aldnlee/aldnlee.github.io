@@ -47,15 +47,10 @@ Table of Content:
   display: flex;
   width: 300px;
   height: 300px;
-  background: #474747;
+  background: #121212;
   border-radius: 20px;
-<<<<<<< HEAD
   box-shadow: 0 35px 80px rgba(85, 171, 255, 40%);
-  
-=======
-  box-shadow: 0 35px 80px rgba(85, 171, 255, 10%);
-  border: 0.5px inset #55abff;
->>>>>>> b30a48dd06f64033bdcf74f0a6b23b27196a90d8
+  border: 2px inset #55abff;
 }
 .imgBx {
   position: absolute;
@@ -68,7 +63,6 @@ Table of Content:
   border-radius: 20px;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
   overflow: hidden;
-  border: 2px inset #55abff;
 }
 .imgBx img
 {
@@ -194,7 +188,7 @@ height: 10px;
   padding: 8px 10px 8px 10px;
   font-weight: 500;
   color: #55abff;
-  border: 2px solid #55abff;
+  border: 2px inset #55abff;
   background-color: #474747;
   cursor: pointer;  
   font-size: 14px;
@@ -206,7 +200,6 @@ height: 10px;
   color: #fff;
   font-weight: 600;
   padding: 8px 10px 8px 10px;
- 
 }
 
 
