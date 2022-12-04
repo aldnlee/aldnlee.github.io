@@ -50,7 +50,7 @@ Table of Content:
   background: #272727;
   border-radius: 20px;
   box-shadow: 0 35px 80px rgba(85, 171, 255, 40%);
-  border: 0.5px solid #55abff;
+  border: 0.8px solid #55abff;
 }
 .imgBx {
   position: absolute;
@@ -188,7 +188,7 @@ height: 10px;
   padding: 8px 10px 8px 10px;
   font-weight: 500;
   color: #55abff;
-  border: 0.5px solid #55abff;
+  border: 0.8px solid #55abff;
   background-color: #272727;
   cursor: pointer;  
   font-size: 14px;
