@@ -49,8 +49,8 @@ Table of Content:
   height: 300px;
   background: #474747;
   border-radius: 20px;
-  box-shadow: 0 35px 80px rgba(85, 171, 255, 10%);
-  border: 0.5px inset #55abff;
+  box-shadow: 0 35px 80px rgba(85, 171, 255, 40%);
+  
 }
 .imgBx {
   position: absolute;
@@ -63,6 +63,7 @@ Table of Content:
   border-radius: 20px;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
   overflow: hidden;
+  border: 2px inset #55abff;
 }
 .imgBx img
 {
@@ -178,7 +179,7 @@ height: 10px;
   padding: 8px 10px 8px 10px;
   font-weight: 500;
   color: #55abff;
-  background-color: #131313;
+  background-color: #474747;
   cursor: pointer;  
   font-size: 14px;
 }
@@ -188,11 +189,11 @@ height: 10px;
   padding: 8px 10px 8px 10px;
   font-weight: 500;
   color: #55abff;
-  border: 0.5px inset #55abff;
-  background-color: #131313;
+  border: 2px solid #55abff;
+  background-color: #474747;
   cursor: pointer;  
   font-size: 14px;
-  box-shadow: 0 1px 40px rgba(85, 171, 255,20%);
+  box-shadow: 0 1px 40px rgba(85, 171, 255,40%);
 }
 
 .tak:hover
@@ -291,14 +292,14 @@ button:focus {
   max-width: 670px;
   margin: 0px auto 75px; }
   .main_title h2 {
-    font-family: "Heebo", sans-serif;
+    font-family: "Saira", sans-serif;
     font-size: 36px;
     color: #222222;
     margin-bottom: 15px;
     text-transform: uppercase; }
   .main_title p {
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Saira", sans-serif;
     font-weight: normal;
     line-height: 26px;
     color: #777777;
@@ -324,7 +325,7 @@ button:focus {
     .header_area .navbar .nav .nav-item {
       margin-right: 45px; }
       .header_area .navbar .nav .nav-item .nav-link {
-        font: 800 12px/120px "Roboto", sans-serif;
+        font: 800 12px/120px "Saira", sans-serif;
         text-transform: uppercase;
         color: #757575;
         padding: 0px;
@@ -442,7 +443,7 @@ button:focus {
     display: inline-block;
     font-size: 12px;
     margin-right: 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Saira", sans-serif;
     font-weight: normal;
     color: #777777;
     transition: all 300ms linear 0s; }
@@ -456,7 +457,7 @@ button:focus {
     border-radius: 3px;
     line-height: 28px;
     font-size: 12px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Saira", sans-serif;
     font-weight: 500;
     padding-left: 19px;
     padding-right: 36px;
@@ -539,7 +540,7 @@ button:focus {
       .blog_banner .banner_inner .blog_b_text h2 {
         font-size: 60px;
         font-weight: bold;
-        font-family: "Heebo", sans-serif;
+        font-family: "Saira", sans-serif;
         line-height: 66px;
         margin-bottom: 15px;
         text-transform: uppercase; }
@@ -579,13 +580,13 @@ button:focus {
     .banner_area .banner_inner .banner_content h2 {
       color: #222222;
       font-size: 48px;
-      font-family: "Heebo", sans-serif;
+      font-family: "Saira", sans-serif;
       margin-bottom: 0px;
       font-weight: bold; }
     .banner_area .banner_inner .banner_content .page_link a {
       font-size: 14px;
       color: #222222;
-      font-family: "Roboto", sans-serif;
+      font-family: "Saira", sans-serif;
       margin-right: 32px;
       position: relative; }
       .banner_area .banner_inner .banner_content .page_link a:before {
@@ -2733,7 +2734,7 @@ h6 {
 ============================================================================================ */
 .mytabs_area {
   background-image: -moz-linear-gradient(45deg, #414050 0%, #d42222 100%);
-  background-image: -webkit-linear-gradient(45deg,#050505 0%, #050505 100%);
+  background-image: -webkit-linear-gradient(45deg,#121212 0%, #121212 100%);
   background-image: -ms-linear-gradient(45deg, #1d1952 0%, #88f3ff 100%); }
 
 .tabs_inner .nav.nav-tabs {
