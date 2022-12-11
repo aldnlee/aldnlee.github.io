@@ -689,7 +689,7 @@ radial-gradient(at 0% 64%, hsla(337,100%,71%,1) 0px, transparent 50%);
 {
   padding-top: 5px;
   margin-bottom: 30px;
-  font-size: 38px;
+  font-size: 42px;
   text-align: center;
   line-height: 1.2;
   font-weight: 600;
@@ -3737,7 +3737,7 @@ h6 {
 .button_fot {
   width: 25px;
   height: 25px;
-  border-radius: 0px;
+  border-radius: 40px;
   margin-top: 0px;
 }
 .button_fot:hover {
@@ -3754,7 +3754,7 @@ text-align: center;
 }
 .button_fot img
 {
-  height: 25px;
+  height: 23px;
   border-radius: 0px;
 }
 .button_fot1 {
@@ -3774,6 +3774,10 @@ text-align: center;
   border-radius: 0px;
 }
 .fot_area {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   background-color:hsla(0,0%,0%,1);
 background-image:
 radial-gradient(at 31% 25%, hsla(37,0%,0%,1) 0px, transparent 50%),
@@ -3785,11 +3789,15 @@ radial-gradient(at 51% 21%, hsla(26,0%,0%,1) 0px, transparent 50%),
 radial-gradient(at 79% 56%, hsla(248,0%,0%,1) 0px, transparent 50%),
 radial-gradient(at 70% 100%, hsla(269,100%,56%,1) 0px, transparent 50%),
 radial-gradient(at 44% 100%, hsla(340,100%,50%,1) 0px, transparent 50%);
-  height: 330px;
+  height: 500px;
 }
 @media (max-width:1000px)
 {
   .fot_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color:hsla(0,0%,0%,1);
 background-image:
 radial-gradient(at 31% 25%, hsla(37,0%,0%,1) 0px, transparent 50%),
@@ -3801,7 +3809,7 @@ radial-gradient(at 51% 21%, hsla(26,0%,0%,1) 0px, transparent 50%),
 radial-gradient(at 79% 56%, hsla(248,0%,0%,1) 0px, transparent 50%),
 radial-gradient(at 70% 100%, hsla(269,100%,56%,1) 0px, transparent 50%),
 radial-gradient(at 44% 100%, hsla(340,100%,50%,1) 0px, transparent 50%);
-    height: 400px;
+    height: 500px;
   }
 }
 .fot_area p
@@ -3809,7 +3817,11 @@ radial-gradient(at 44% 100%, hsla(340,100%,50%,1) 0px, transparent 50%);
 font-weight: 300;
 text-align: center;
 }
-
+#p_thanks
+{
+  margin-top: 30px;
+  width: 360px;
+}
 .fot_container3
 {
   display: flex;
@@ -3829,7 +3841,7 @@ text-align: center;
     padding: 6px 0px 10px 2px;
   }
   .button_d:hover {
-    background-color: #121212;
+    background-color: #000;
     border: 0.8px #fff solid;
   }
   .button_d a {
@@ -3875,7 +3887,6 @@ text-align: center;
   height: 35px;
   font-size: 12px;
 }
-
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
