@@ -49,6 +49,63 @@ body
 {
   font-family: "Saira, sans-serif";
 }
+.pre_banner {
+  display: flex;
+  margin: auto;
+  margin-top: 0px;
+  background-color:hsla(0,0%,0%,1);
+  background-image:
+  radial-gradient(at 41% 71%, hsla(24,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 44%, hsla(339,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 32%, hsla(26,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 8% 69%, hsla(248,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 25% 0%, #ff6ca2 0px, transparent 50%),
+  radial-gradient(at 64% 0%, #a34dff 0px, transparent 50%),
+  radial-gradient(at 43% 0%, #ff1f71 0px, transparent 50%);
+  height: 768px;
+  width: 1366px;
+  justify-content: center;
+  align-items: top;
+}
+@media(max-width:768px)
+{
+  .pre_banner {
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    height: 500px;
+    width: 1366px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.title_pre
+{
+  margin-top: 220px;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  width: 850px;
+  height:200px;
+  justify-content: center;
+  align-items: center;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+.title_pre h3{
+  font-weight: 300;
+}
+
+.title_pre span
+{
+  
+}
+
+
+
 .fitur_banner {
   display: flex; 
   width: 945px;
@@ -58,9 +115,10 @@ body
 .intro_banner {
   display: flex;
   margin: auto;
-  margin-top: 180px;
+  margin-top: 0px;
+  padding-top: 160px;
   background: #121212;
-  height: 500px;
+  height: 600px;
   width: 1366px;
   justify-content: center;
 }
@@ -98,7 +156,7 @@ body
   width: 300px;
   height: 290px;
   background: linear-gradient( #121212, #121212) padding-box,
-  linear-gradient(to right, #FF1F73 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%) border-box;
+  linear-gradient(45deg, #55ab 0%, #55abff 100%) border-box;
   border-radius: 20px;
   box-shadow: 0 5px 55px rgba(255, 255, 255, 0.1);
   border: 1.5px solid transparent;
@@ -226,14 +284,14 @@ height: 228px;
 .container2 .dtl a
 {
  font-size: 24px;
- color: #FF1F73;
+ color: #55abff;
  font-weight: 600;
  text-align: left;
 }
 .container2 .dtl a:hover
 {
  font-size: 24px;
- color: #FF1F73;
+ color: #55abff;
  font-weight: 600;
  text-align: left;
 }
@@ -272,13 +330,13 @@ font-weight: 500;
 }
 /*bataas*/
 .button1 {
-  width: 90px;
+  width: 100px;
   height: 40px;
   background: linear-gradient(#121212,#121212) padding-box,
-              linear-gradient(to right, #FF1F73 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%) border-box;
-  border: 2px solid transparent;
+              linear-gradient(45deg, #fff 0%, #55abff 100%) border-box;
+  border: 1.5px solid transparent;
   border-radius: 40px;
-  padding: 5px 0px 0px 9px;
+  padding: 5px 0px 0px 13px;
 }
 
 .button1:hover {
@@ -295,7 +353,7 @@ a {
   color: white;
 }
 
-@media (max-width:1000px)
+@media (max-width:768px)
 {
   .intro_banner {
     display: flex;
@@ -346,7 +404,7 @@ margin: 20px auto auto auto;
   border-radius: 20px;
   box-shadow: 0 5px 55px rgba(255, 255, 255, 0.1);
   background: linear-gradient(#121212, #121212) padding-box,
-              linear-gradient(to right, #FF1F73 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%) border-box;
+              linear-gradient(to right, #55ab 0%, #55abff 100%) border-box;
   border: 1.5px solid transparent;
 }
 /*ff5555*/
@@ -400,14 +458,14 @@ height: 150px;
 .container2 .dtl a
 {
  font-size: 18px;
- color: #FF1F73;
+ color: #55abff;
  font-weight: 600;
  text-align: left;
 }
 .container2 .dtl a:hover
 {
  font-size: 18px;
- color: #FF1F73;
+ color: #55abff;
  font-weight: 600;
  text-align: left;
 }
@@ -454,9 +512,10 @@ height: 50px;
   background-image: linear-gradient(45deg, #FF1F73 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%); 
   display: flex;
   margin: auto auto 0px auto;
-  padding-top: 50px;
-  height: 400px;
-  width: 1366px;
+  padding-top: 40px;
+  border-radius: 20px;
+  height: 380px;
+  width: 1050px;
   justify-content: center;
 }
 
@@ -466,7 +525,7 @@ height: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
-  margin-left: 200px;
+  margin-left: 195px;
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.7);
@@ -510,7 +569,7 @@ height: 50px;
   justify-content: center;
   text-align: right;
 }
-@media (max-width:1000px)
+@media (max-width:768px)
 {
   .container8 {
     display: flex;
@@ -578,11 +637,21 @@ margin: 10px auto 20px auto;
 /*project*/
 .project_banner
 {
-  margin: 0px auto 20px auto;
+  margin: 50px auto 0px auto;
   padding-top: 0px;
   width: 1366px;
   height: 1150px;
-  background: #121212;
+  background-color:hsla(0,0%,0%,1);
+background-image:
+radial-gradient(at 42% 50%, hsla(37,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 29% 25%, hsla(39,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 72% 65%, hsla(144,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 53% 40%, hsla(24,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 2% 99%, hsla(339,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 51% 21%, hsla(26,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 18% 97%, hsla(248,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 30% 80%, hsla(269,100%,56%,1) 0px, transparent 50%),
+radial-gradient(at 0% 64%, hsla(337,100%,71%,1) 0px, transparent 50%);
   justify-content: center;
   align-items: center;
   display: flex;
@@ -607,8 +676,8 @@ margin: 10px auto 20px auto;
   width: 80px;
   height: 30px;
   border-radius: 40px;
-  background: linear-gradient(#121212, #121212) padding-box,
-  linear-gradient(to right, #FF1F73 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%) border-box;  
+  background: linear-gradient(#000, #000) padding-box,
+  linear-gradient(to right, #FF1F73 0%, #55abff 100%) border-box;  
   border: 1.5px solid transparent;
   align-items: center;
   text-align: center;
@@ -620,7 +689,7 @@ margin: 10px auto 20px auto;
 {
   padding-top: 5px;
   margin-bottom: 30px;
-  font-size: 32px;
+  font-size: 38px;
   text-align: center;
   line-height: 1.2;
   font-weight: 600;
@@ -631,7 +700,7 @@ margin: 10px auto 20px auto;
   font-size: 14px;
   margin-bottom: 5px;
   margin-top: 10px;
-  color: #FF1F73;
+  color: #55abff;
 }
 .project_banner .dtl_project
 {
@@ -651,71 +720,6 @@ margin: 10px auto 20px auto;
   line-height: 1.2;
 }
 /*case*/
-.project_banner
-{
-  margin: 20px auto 20px auto;
-  padding-top: 20px;
-  width: 1366px;
-  height: 1250px;
-  background: #121212;
-  justify-content: top;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.project_banner img
-{
-  width: 600px;
-  height: 300px;
-  margin-top: 20px;
-  border-radius: 10px;
-}
-#mrg_dtl
-{
-  margin-top: 50px;
-}
-
-.project_banner h1
-{
-  color: #fff;
-  width: 80px;
-  height: 30px;
-  border-radius: 40px;
-  background: linear-gradient(#121212, #121212) padding-box,
-  linear-gradient(to right, #FF1F73 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%) border-box;  
-  border: 1.5px solid transparent;
-  align-items: center;
-  text-align: center;
-  padding-top: 2px;
-  font-size: 18px;
-  font-weight: 400;
-}
-#case
-{
-  color: #fff;
-  width: 110px;
-  height: 30px;
-  border-radius: 40px;
-  background: linear-gradient(#121212, #121212) padding-box,
-  linear-gradient(to right, #FF1F73 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%) border-box;  
-  border: 1.5px solid transparent;
-  align-items: center;
-  text-align: center;
-  padding-top: 2px;
-  font-size: 18px;
-  font-weight: 400;
-}
-.project_banner h2
-{
-  padding-top: 5px;
-  margin-bottom: 30px;
-  font-size: 32px;
-  text-align: center;
-  line-height: 1.2;
-  font-weight: 600;
-  color: #fff;
-}
 
 
 
@@ -741,7 +745,7 @@ text-align: center;
   color: white;
 }
 
-@media (max-width:1000px)
+@media (max-width:768px)
 {
   .project_banner
 {
@@ -887,7 +891,7 @@ button:focus {
       .header_area .navbar .nav .nav-item .nav-link {
         font: 400 12px/120px "Saira", sans-serif;
         text-transform: uppercase;
-        color: #757575;
+        color: #dedede;
         padding: 0px;
         display: inline-block; }
 /*jjj*/
@@ -912,7 +916,7 @@ button:focus {
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #FF1F73; 
+        color: #fff; 
         font-weight: bold;
       }
       .header_area .navbar .nav .nav-item.submenu {
@@ -3722,7 +3726,7 @@ h6 {
   height: 50px;
   border-radius: 40px;
   background: linear-gradient(#121212, #121212) padding-box,
-  linear-gradient(to right, #FF1F73 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%) border-box;  
+  linear-gradient(45deg, #55ab 0%, #55abff 100%) border-box;  
   border: 2px solid transparent;
 }
 .fot_button
@@ -3733,11 +3737,10 @@ h6 {
 .button_fot {
   width: 25px;
   height: 25px;
-  border-radius: 40px;
+  border-radius: 0px;
   margin-top: 0px;
 }
 .button_fot:hover {
-  background-color: #121212;
   box-shadow: 0 5px 30px rgba(255, 255, 255, 0.2);
 }
 .button_fot a {
@@ -3752,33 +3755,52 @@ text-align: center;
 .button_fot img
 {
   height: 25px;
-  border-radius: 40px;
+  border-radius: 0px;
 }
 .button_fot1 {
   width: 25px;
   height: 25px;
-  border-radius: 40px;
+  border-radius: 20px;
   margin-top: 10px;
   margin-top: 0px;
-  margin-left: 10px;
+  margin-left: 35px;
 }
 .button_fot1:hover {
-  background-color: #121212;
   box-shadow: 0 5px 30px rgba(255, 255, 255, 0.2);
 }
 .button_fot1 img
 {
   height: 25px;
-  border-radius: 40px;
+  border-radius: 0px;
 }
 .fot_area {
-  background: #121212;
+  background-color:hsla(0,0%,0%,1);
+background-image:
+radial-gradient(at 31% 25%, hsla(37,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 26% 36%, hsla(39,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 93% 60%, hsla(144,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 53% 40%, hsla(24,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 13% 79%, hsla(339,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 51% 21%, hsla(26,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 79% 56%, hsla(248,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 70% 100%, hsla(269,100%,56%,1) 0px, transparent 50%),
+radial-gradient(at 44% 100%, hsla(340,100%,50%,1) 0px, transparent 50%);
   height: 330px;
 }
 @media (max-width:1000px)
 {
   .fot_area {
-    background: #121212;
+    background-color:hsla(0,0%,0%,1);
+background-image:
+radial-gradient(at 31% 25%, hsla(37,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 26% 36%, hsla(39,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 93% 60%, hsla(144,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 53% 40%, hsla(24,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 13% 79%, hsla(339,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 51% 21%, hsla(26,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 79% 56%, hsla(248,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 70% 100%, hsla(269,100%,56%,1) 0px, transparent 50%),
+radial-gradient(at 44% 100%, hsla(340,100%,50%,1) 0px, transparent 50%);
     height: 400px;
   }
 }
@@ -3819,13 +3841,13 @@ text-align: center;
   }
   /*bataas*/
   .button1_e {
-    width: 90px;
+    width: 95px;
     height: 40px;
-    background: linear-gradient(#121212,#121212) padding-box,
-                linear-gradient(to right, #FF1F73 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%) border-box;
-    border: 2px solid transparent;
+    background: linear-gradient(#000,#000) padding-box,
+                linear-gradient(45deg, #fff 0%, #55abff 100%) border-box;
+    border: 1.5px solid transparent;
     border-radius: 40px;
-    padding: 5px 0px 0px 2px;
+    padding: 6px 0px 0px 2px;
   }
   
   .button1_e:hover {
@@ -3849,7 +3871,7 @@ text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000;
+  background: #121212;
   height: 35px;
   font-size: 12px;
 }
