@@ -94,7 +94,7 @@
         margin-bottom: 23px;
     }
 	.header_area .navbar {
-		background: #000;
+		background: #121212;
 	}
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;
@@ -326,10 +326,6 @@
 	}
 	/* End Home Banner Area css
 	============================================================================================ */
-	.p_120 {
-		padding-top: 70px;
-		padding-bottom: 70px;
-	}
 	.main_title h2 {
 		font-size: 25px;
 	}
