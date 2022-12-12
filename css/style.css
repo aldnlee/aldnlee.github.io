@@ -3805,39 +3805,12 @@ text-align: center;
   border-radius: 0px;
 }
 .fot_area {
-<<<<<<< HEAD
   margin: auto;
-=======
->>>>>>> b82dc51c8d8364eb2f3417a6f421df770a229ee9
   display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
   background-color:hsla(0, 0%,0%,1);
-=======
-  background-color:hsla(0,0%,0%,1);
-background-image:
-radial-gradient(at 31% 25%, hsla(37,0%,0%,1) 0px, transparent 50%),
-radial-gradient(at 26% 36%, hsla(39,0%,0%,1) 0px, transparent 50%),
-radial-gradient(at 93% 60%, hsla(144,0%,0%,1) 0px, transparent 50%),
-radial-gradient(at 53% 40%, hsla(24,0%,0%,1) 0px, transparent 50%),
-radial-gradient(at 13% 79%, hsla(339,0%,0%,1) 0px, transparent 50%),
-radial-gradient(at 51% 21%, hsla(26,0%,0%,1) 0px, transparent 50%),
-radial-gradient(at 79% 56%, hsla(248,0%,0%,1) 0px, transparent 50%),
-radial-gradient(at 70% 100%, hsla(269,100%,56%,1) 0px, transparent 50%),
-radial-gradient(at 44% 100%, hsla(340,100%,50%,1) 0px, transparent 50%);
-  height: 500px;
-}
-@media (max-width:1000px)
-{
-  .fot_area {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:hsla(0,0%,0%,1);
->>>>>>> b82dc51c8d8364eb2f3417a6f421df770a229ee9
 background-image:
 radial-gradient(at 31% 25%, hsla(0,0%,0%,1)  0px, transparent 50%),
 radial-gradient(at 26% 36%, hsla(0,0%,0%,1)  0px, transparent 50%),
@@ -3848,12 +3821,7 @@ radial-gradient(at 51% 21%, hsla(26,0%,0%,1) 0px, transparent 50%),
 radial-gradient(at 79% 56%, hsla(248,0%,0%,1) 0px, transparent 50%),
 radial-gradient(at 70% 100%, hsla(269,100%,56%,1) 0px, transparent 50%),
 radial-gradient(at 44% 100%, hsla(340,100%,50%,1) 0px, transparent 50%);
-<<<<<<< HEAD
   height: 400px;
-=======
-    height: 500px;
-  }
->>>>>>> b82dc51c8d8364eb2f3417a6f421df770a229ee9
 }
 
 .fot_area p
@@ -3863,15 +3831,10 @@ text-align: center;
 }
 #p_thanks
 {
-<<<<<<< HEAD
   margin-top: 20px;
   margin-bottom: 20px;
   width: 500px;
   height: 90px;
-=======
-  margin-top: 30px;
-  width: 360px;
->>>>>>> b82dc51c8d8364eb2f3417a6f421df770a229ee9
 }
 .fot_container3
 {
