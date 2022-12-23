@@ -94,7 +94,9 @@
         margin-bottom: 23px;
     }
 	.header_area .navbar {
-		background: #212121;
+		background: rgba(36, 36, 36, 0.4);
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+		backdrop-filter: blur(50px);
 	}
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;

@@ -53,16 +53,15 @@ body
   display: flex;
   margin: auto;
   margin-top: 0px;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 250px 250px;
   background-color:hsla(0,0%,0%,1);
   background-image:
   radial-gradient(at 41% 71%, hsla(24,0%,0%,1) 0px, transparent 50%),
   radial-gradient(at 0% 44%, hsla(339,0%,0%,1) 0px, transparent 50%),
   radial-gradient(at 0% 32%, hsla(26,0%,0%,1) 0px, transparent 50%),
   radial-gradient(at 8% 69%, hsla(248,0%,0%,1) 0px, transparent 50%),
-  radial-gradient(at 25% 0%, #ff6ca2 0px, transparent 50%),
-  radial-gradient(at 64% 0%, #a34dff 0px, transparent 50%),
-  radial-gradient(at 43% 0%, #ff1f71 0px, transparent 50%);
+  radial-gradient(at 25% 0%, #FF1F73 0px, transparent 50%),
+  radial-gradient(at 64% 0%, #55abff 0px, transparent 50%);
   height: 768px;
   width: 1366px;
   justify-content: center;
@@ -90,13 +89,18 @@ body
   font-size: 24px;
   font-weight: 300;
 }
-
+.title_pre span
+{
+  font-size: 54px;
+}
+@media (max-width:768px)
+{
 .title_pre span
 {
   font-size: 54px;
   background-image:linear-gradient(119.39deg, #FFf 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;background-repeat:no-repeat"
 }
-
+}
 @media(max-width:768px)
 {
   .pre_banner {
@@ -142,9 +146,9 @@ body
 
 .fitur_banner {
   display: flex; 
-  margin-top: 20px;
+  margin-top: 40px;
   width: 945px;
-  height: 400px;  
+  height: 400px;   
 }
 
 .intro_banner {
@@ -182,7 +186,7 @@ body
   width: 300px;
   display: flex;
   box-sizing: border-box;
-  align-items: right;
+  align-items: top;
   justify-content: center;
 }
 .bxo_banner h1
@@ -203,7 +207,7 @@ body
 .imgBx img
 {
   width: 400px;
-  border-radius: 20px;
+  border-radius: 0px 40px 0px 40px;
 }
 /*card dan temen2nya*/
 .card {
@@ -296,6 +300,7 @@ height: 228px;
 {
  font-size: 18px;
  text-align: left;
+ font-weight: 300;
  line-height: 1.5;
 }
 .container3
@@ -362,7 +367,7 @@ a {
     display: flex;
     margin: auto;
     background: #121212;
-    height: 950px;
+    height: 750px;
     width: 360px;
     justify-content: center;
   }
@@ -384,7 +389,6 @@ height: 500px;
   width: 330px;
   display: flex;
   box-sizing: border-box;
-  align-items: top;
   justify-content: center;
 }
 .bxo_banner h1
@@ -447,9 +451,10 @@ height: 150px;
 }
 .container2 .dtl
 {
- font-size: 14px;
+ font-size: 16px;
  text-align: left;
  line-height: 1.5;
+ font-weight: 300;
 }
 .container2 .dtl span
 {
@@ -494,7 +499,16 @@ height: 50px;
   border-radius: 20px;
   background-image: linear-gradient(35deg, #8F1FFF 6.43%, #FF1F73 100%); 
   height: 2px;
-
+}
+.warna1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto auto auto;
+  border-radius: 20px;
+  background: #636363; 
+  height: 1px;
 }
 @media (max-width:768px)
 {
@@ -505,9 +519,8 @@ height: 50px;
   justify-content: center;
   margin: 0px auto auto auto;
   border-radius: 20px;
-  background-image: linear-gradient(35deg, #8F1FFF.43%, #55abff 100%); 
+  background-image: linear-gradient(35deg, #FF1F73.43%, #8F1FFF 100%); 
   height: 2px;
-  width: 360px;
 }
 }
 
@@ -530,15 +543,18 @@ height: 50px;
   border-radius: 10px;
 }
 .ill2 {
+  height: 300px;
   width: 300px;
   border-radius: 10px;
 }
 
 .container8 {
-  background-image: linear-gradient(45deg, #8F1FFF 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%); 
+  background: rgba(105, 105, 105, 0.2);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
   display: flex;
   margin: -160px auto 0px auto;
-  border-radius: 20px;
+  border-radius: 40px;
   height: 380px;
   width: 1050px;
   justify-content: center;
@@ -550,7 +566,7 @@ height: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
-  margin-left: 195px;
+  margin-left: 194px;
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.7);
@@ -565,7 +581,7 @@ height: 50px;
   flex-grow: 0;
   flex-direction: column-reverse;
   margin: 0px auto auto 40px;
-  padding: 10px 10px 10px 0px;
+  padding: 10px 0px 10px 0px;
   border-radius: 10px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.7);
   height: 300px;
@@ -582,8 +598,8 @@ height: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 40px;
-  margin-right: 200px;
-  padding: 10px 10px 10px 0px;
+  margin-right: 210px;
+  padding: 10px 0px 10px 0px;
   border-radius: 10px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.7);
   height: 300px;
@@ -597,7 +613,7 @@ height: 50px;
 @media (max-width:768px)
 {
   .container8 {
-    display: flex;
+    display: none;
     margin: 0px auto 0px auto;
     height: 1020px;
     border-radius: 20px;
@@ -659,14 +675,14 @@ margin: 40px auto 20px auto;
   text-align: center;
 }
 }
-/*project*/
+/*case study*/
 .project_banner
 {
   background-color: #121212;
   margin: 50px auto 0px auto;
   padding-top: 0px;
   width: 1366px;
-  height: 1150px;
+  height: 1850px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -679,6 +695,7 @@ margin: 40px auto 20px auto;
   height: 300px;
   margin-top: 20px;
   border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 #mrg_dtl
 {
@@ -688,7 +705,7 @@ margin: 40px auto 20px auto;
 .project_banner h1
 {
   color: #fdfdfd;
-  width: 80px;
+  width: 110px;
   height: 30px;
   border-radius: 40px;
   background: linear-gradient(#121212, #121212) padding-box,
@@ -727,7 +744,6 @@ margin: 40px auto 20px auto;
 }
 .project_banner .dtl_project p
 {
-  margin-bottom: 10px;
   color: #fff;
   padding: 0px 0px 0px 0px;
   font-size: 30px;
@@ -735,18 +751,24 @@ margin: 40px auto 20px auto;
   line-height: 1.2;
 }
 
-
-
-/*case*/
-
+.project_banner .dtl_project p.cap
+{
+  margin-bottom: 4px;
+  color: #636363;
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+}
 
 
 .button_project {
-  width: 100px;
-  height: 40px;
+  width: 110px;
+  height: 30px;
   border: 1.5px #636363 solid;
+  background-color: #121212;
   border-radius: 40px;
-  padding: 5px 0px 2px 8px;
+  padding: 0px 0px 2px 0px;
   margin-top: 10px;
 }
 .button_project:hover {
@@ -763,6 +785,10 @@ text-align: center;
   color: white;
 }
 
+/*Project*/
+
+
+
 @media (max-width:768px)
 {
   .project_banner
@@ -770,7 +796,7 @@ text-align: center;
   margin: auto;
   padding-top: 0px;
   width: 360px;
-  height: 1300px;
+  height: 1850px;
   background: #121212;
   justify-content: center;
   align-items: center;
@@ -786,10 +812,6 @@ text-align: center;
   line-height: 1.2;
   font-weight: 600;
   color: #fff;
-}
-.project_banner img
-{
-
 }
 .project_banner .dtl_project
 {
@@ -819,8 +841,46 @@ text-align: center;
   margin-top: 20px;
   border-radius: 10px;
 }
-
 }
+
+/*Prouject*/
+.prouject
+{
+  height: 600px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.prouject h1
+{
+  color: #fdfdfd;
+  width: 110px;
+  height: 30px;
+  border-radius: 40px;
+  background: linear-gradient(#121212, #121212) padding-box,
+  linear-gradient(to right, #FF1F73 0%, #55abff 100%) border-box;  
+  border: 1.5px solid transparent;
+  align-items: center;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.prouject h2
+{
+  padding-top: 5px;
+  margin-bottom: 30px;
+  font-size: 42px;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+
 
 
 .list {
@@ -1066,7 +1126,9 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #212121;
+    background: rgba(36, 36, 36, 0.4);
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+		backdrop-filter: blur(40px);
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -3682,7 +3744,7 @@ h6 {
 /* Testimonials Area css
 ============================================================================================ */
 .testimonials_area {
-  background-image: linear-gradient(45deg, #8F1FFF 6.43%, #8F1FFF 49.87%, #55abff 91.42%);
+  background: #55abff;
 }
   .testimonials_area.testi_two {
     background: #000; }
@@ -3730,6 +3792,118 @@ h6 {
 /* End Testimonials Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
+.tolskil
+{
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+}
+.tolskil h1
+{
+  color: #fdfdfd;
+  margin: 50px auto 10px auto;
+  width: 125px;
+  height: 30px;
+  border-radius: 40px;
+  background: linear-gradient(#121212, #121212) padding-box,
+  linear-gradient(to right, #FF1F73 0%, #55abff 100%) border-box;  
+  border: 1.5px solid transparent;
+  align-items: center;
+  text-align: center;
+  padding-top: 4px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.list_skil
+{
+  display: flex;
+  margin: 20px auto;
+  width: 800px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skil1
+{
+  flex-grow: 0;
+  flex-direction: column-reverse;
+  margin: auto;
+  border-radius: 6px;
+  height: 300px;
+  width: 330px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: left;
+  justify-content: bottom;
+}
+.skil2
+{
+  flex-grow: 0;
+  flex-direction: column-reverse;
+  margin: 0px 0px 0px 60px;
+  border-radius: 6px;
+  height: 300px;
+  width: 330px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: left;
+  justify-content: center;
+}
+.container_skil
+{
+  margin:auto;
+  align-items: top;
+  justify-content: top;
+  height: 200px;
+  width:330px;
+}
+@media (max-width:768px)
+{
+  .tolskil
+{
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+  .list_skil
+  {
+    display: block;
+    margin-top: 40px;
+    width: 360px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .skil1
+  {
+    flex-grow: 0;
+  flex-direction: column-reverse;
+  margin: auto auto auto;
+  border-radius: 6px;
+  height: 200px;
+  width: 330px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  }
+  .skil2
+  {
+    flex-grow: 0;
+    flex-direction: column-reverse;
+    margin: auto auto 20px auto;
+    border-radius: 6px;
+    box-shadow: #707070;
+    height: 200px;
+    width: 330px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+}
 /*----------------------------------------------------*/
 
 .fot_container
@@ -3830,16 +4004,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
   background-color:hsla(0, 0%,0%,1);
-background-image:
-radial-gradient(at 31% 25%, hsla(0,0%,0%,1)  0px, transparent 50%),
-radial-gradient(at 26% 36%, hsla(0,0%,0%,1)  0px, transparent 50%),
-radial-gradient(at 93% 60%, hsla(0,0%,0%,1)  0px, transparent 50%),
-radial-gradient(at 53% 40%, hsla(24,0%,0%,1)  0px, transparent 50%),
-radial-gradient(at 13% 79%, hsla(339,0%,0%,1)  0px, transparent 50%),
-radial-gradient(at 51% 21%, hsla(26,0%,0%,1) 0px, transparent 50%),
-radial-gradient(at 79% 56%, hsla(248,0%,0%,1) 0px, transparent 50%),
-radial-gradient(at 70% 100%, hsla(269,100%,56%,1) 0px, transparent 50%),
-radial-gradient(at 44% 100%, hsla(340,100%,50%,1) 0px, transparent 50%);
+background: #000;
   height: 400px;
 }
 
@@ -3914,10 +4079,12 @@ text-align: center;
     {
       width: 300px;
       height: 100px;
-      margin: 20px auto 80px 15px;
-      width: 308px;
+      margin: 20px auto 80px auto;
+      width: 300px;
       height: 90px;
-      text-align: left;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 200;
     }   
 }
   /*bataas*/
@@ -3925,7 +4092,7 @@ text-align: center;
     width: 95px;
     height: 40px;
     background: linear-gradient(#000,#000) padding-box,
-                linear-gradient(45deg, #fff 0%, #55abff 100%) border-box;
+                linear-gradient(45deg, #FF1F73 0%, #8F1FFF 100%) border-box;
     border: 1.5px solid transparent;
     border-radius: 40px;
     padding: 6px 0px 0px 2px;
@@ -3936,7 +4103,7 @@ text-align: center;
       width: 95px;
       height: 40px;
       background: linear-gradient(#121212,#121212) padding-box,
-                  linear-gradient(45deg, #fff 0%, #55abff 100%) border-box;
+                  linear-gradient(45deg, #FF1F73 0%, #8F1FFF 100%) border-box;
       border: 1.5px solid transparent;
       border-radius: 40px;
       padding: 6px 0px 0px 2px;
@@ -3965,7 +4132,7 @@ text-align: center;
   justify-content: center;
   align-items: center;
   background: #212121;
-  height: 35px;
+  height: 30px;
   font-size: 12px;
 }
 /* End Footer Area css
