@@ -94,7 +94,7 @@
         margin-bottom: 23px;
     }
 	.header_area .navbar {
-		background: rgba(36, 36, 36, 0.4);
+		background: rgba(36, 36, 36, 0.2);
 		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
 		backdrop-filter: blur(50px);
 	}
