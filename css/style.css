@@ -92,14 +92,6 @@ body
 {
   font-size: 54px;
 }
-@media (max-width:768px)
-{
-.title_pre span
-{
-  font-size: 54px;
-  background-image:linear-gradient(119.39deg, #FFf 6.43%, #55abff 49.87%, #55abff 91.42%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;background-repeat:no-repeat"
-}
-}
 @media(max-width:768px)
 {
   .pre_banner {
@@ -134,7 +126,7 @@ body
   .title_pre span
   {
     font-size: 36px;
-    background-image:linear-gradient(119.39deg, #FFf 6.43%, #55abff 49.87%, #1FC8FF 91.42%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;background-repeat:no-repeat"
+    background-image:linear-gradient(119.39deg, #ff6 6.43%, #ff55c6 49.87%, #1FC8FF 91.42%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;background-repeat:no-repeat"
   }
 
 }
@@ -205,7 +197,7 @@ display: none;
 .bxo_banner {
   flex-grow: 0;
   flex-direction: column-reverse;
-  margin: 25px 0px 0px 0px;
+  margin: 95px 0px 0px 0px;
   border-radius: 6px;
   box-shadow: #707070;
   height: 300px;
@@ -218,7 +210,7 @@ display: none;
 .bxo_banner h1
 {
   color: #fdfdfd;
-  width: 130px;
+  width: 110px;
   height: 30px;
   border-radius: 40px;
   background: linear-gradient(#121212, #121212) padding-box,
@@ -226,7 +218,7 @@ display: none;
   border: 1.5px solid transparent;
   align-items: center;
   text-align: center;
-  padding-top: 2px;
+  padding-top: 4px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -421,7 +413,7 @@ height: 500px;
 {
   color: #fdfdfd;
   margin:auto;
-  width: 130px;
+  width: 110px;
   height: 30px;
   border-radius: 40px;
   background: linear-gradient(#121212, #121212) padding-box,
@@ -429,7 +421,7 @@ height: 500px;
   border: 1px solid transparent;
   align-items: center;
   text-align: center;
-  padding-top: 2px;
+  padding-top: 4px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -705,7 +697,7 @@ margin: 40px auto 20px auto;
 .project_banner
 {
   background-color: #121212;
-  margin: 50px auto 0px auto;
+  margin: 0px auto 0px auto;
   padding-top: 0px;
   width: 1366px;
   height: 1850px;
@@ -731,7 +723,7 @@ margin: 40px auto 20px auto;
 .project_banner h1
 {
   color: #fdfdfd;
-  width: 140px;
+  width: 100px;
   height: 30px;
   border-radius: 40px;
   background: linear-gradient(#121212, #121212) padding-box,
@@ -739,7 +731,7 @@ margin: 40px auto 20px auto;
   border: 1px solid transparent;
   align-items: center;
   text-align: center;
-  padding-top: 2px;
+  padding-top: 4px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -789,7 +781,7 @@ margin: 40px auto 20px auto;
 
 
 .button_project {
-  width: 110px;
+  width: 120px;
   height: 30px;
   border: 1.5px #636363 solid;
   background-color: #121212;
@@ -798,7 +790,7 @@ margin: 40px auto 20px auto;
   margin-top: 10px;
 }
 .button_project:hover {
-  background-color: #121212;
+  background-color: #222222;
   border: 0.8px #fff solid;
 }
 .button_project a {
@@ -842,7 +834,7 @@ text-align: center;
   text-align: left;
 }
 .button_project1:hover {
-  background-color: #121212;
+  background-color: #222222;
   border: 1.5px #fff solid;
 }
 .button_project1 a
@@ -865,7 +857,7 @@ color: #636363;
   margin: auto;
   padding-top: 0px;
   width: 360px;
-  height: 1850px;
+  height: 1800px;
   background: #121212;
   justify-content: center;
   align-items: center;
@@ -915,17 +907,16 @@ color: #636363;
 /*Prouject*/
 .prouject
 {
-  padding-top:95px;
-  height: 600px;
+  height: 140px;
   align-items: center;
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
 .prouject h1
 {
   color: #fdfdfd;
-  width: 100px;
+  width: 160px;
   height: 30px;
   border-radius: 40px;
   background: linear-gradient(#121212, #121212) padding-box,
@@ -948,21 +939,111 @@ color: #636363;
   color: #fff;
 }
 
-
+.wrapper-grid
+{
+  display: none;
+  grid-template-columns: repeat(auto-fit, 21rem);
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.w-grid
+{
+  overflow: hidden;
+  display: none;
+  background-color: aqua;
+  border-radius: 1rem;
+  position: relative;
+  margin: 0.5rem;
+  height: 300px;
+}
 
 @media (max-width:768px)
 {
   .prouject
 {
   margin-top: 80px;
-  height: 600px;
+  height: 180px;
   align-items: center;
-  display: flex;
+  display:none;
   flex-direction: column;
 }
   .prouject h2
 {
   width: 360px;
+  padding-top: 5px;
+  margin-bottom: 30px;
+  font-size: 34px;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #fff;
+}
+}
+/*Prouject1*/
+.prouject1
+{
+  height: 140px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.prouject1 h1
+{
+  color: #fdfdfd;
+  width: 180px;
+  height: 30px;
+  border-radius: 40px;
+  background: linear-gradient(#121212, #121212) padding-box,
+  linear-gradient(to right, #d9d9d9 0%, #d9d9d9 100%) border-box;  
+  border: 1px solid transparent;
+  align-items: center;
+  text-align: center;
+  padding-top: 4px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.prouject1 h2
+{
+  padding-top: 5px;
+  margin-bottom: 30px;
+  font-size: 42px;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #fff;
+}
+.wrapper-grid1
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 21rem);
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.w-grid1
+{
+  overflow: hidden;
+  background-color: aqua;
+  border-radius: 1rem;
+  position: relative;
+  margin: 0.5rem;
+  height: 300px;
+}
+
+
+@media (max-width:768px)
+{
+  .prouject1
+{
+  margin-top: 80px;
+  height: 170px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+  .prouject1 h2
+{
+  width: 330px;
   padding-top: 5px;
   margin-bottom: 30px;
   font-size: 34px;
@@ -3895,7 +3976,7 @@ h6 {
 {
   color: #fdfdfd;
   margin: 50px auto 10px auto;
-  width: 160px;
+  width: 135px;
   height: 30px;
   border-radius: 40px;
   background: linear-gradient(#121212, #121212) padding-box,
@@ -4043,7 +4124,7 @@ h6 {
   height: 50px;
   border-radius: 40px;
   background: linear-gradient(#121212, #121212) padding-box,
-  linear-gradient(45deg, #d9d9d9 6%, #55abff 100%) border-box;  
+  linear-gradient(45deg, #d9d9d9 6%, #d9d9d9 100%) border-box;  
   border: 2px solid transparent;
 }
 .fot_button
@@ -4186,24 +4267,12 @@ text-align: center;
     width: 115px;
     height: 40px;
     background: linear-gradient(#000,#000) padding-box,
-                linear-gradient(45deg, #d9d9d9 0%, #55abff 100%) border-box;
+                linear-gradient(45deg, #ff6 5%, #ff55c6 20%, #55abff 50%) border-box;
     border: 1.5px solid transparent;
     border-radius: 40px;
     padding: 6px 0px 0px 2px;
   }
-  @media (max-width:768px)
-  {
-    .button1_e {
-      width: 115px;
-      height: 40px;
-      background: linear-gradient(#000,#000) padding-box,
-                  linear-gradient(45deg, #d9d9d9 0%, #55abff 100%) border-box;
-      border: 1.5px solid transparent;
-      border-radius: 40px;
-      padding: 6px 0px 0px 2px;
-    }
-  }
-  
+   
   .button1_e:hover {
     background-color: #121212;
     color: white;
@@ -4217,6 +4286,30 @@ text-align: center;
   }
   .button1_e:hover a{
     color: white;
+  }
+  @media (max-width:768px)
+  {
+    .button1_e {
+      width: 115px;
+      height: 40px;
+      background: linear-gradient(#000,#000) padding-box,
+                  linear-gradient(45deg, #ff6 10%, #ff55c6 60%, #55abff 90%) border-box;
+      border: 1.5px solid transparent;
+      border-radius: 40px;
+      padding: 6px 0px 0px 2px;
+    }
+      
+  .button1_e:hover {
+    width: 115px;
+      height: 40px;
+      background: linear-gradient(#121212,#121212) padding-box,
+                  linear-gradient(45deg, #ff6 10%, #ff55c6 60%, #55abff 90%) border-box;
+      border: 1.5px solid transparent;
+      border-radius: 40px;
+      padding: 6px 0px 0px 2px;
+
+    box-shadow: 0 1px 40px rgba(235, 235, 235, 0.1);
+  }
   }
 /* Footer Area css
 ============================================================================================ */

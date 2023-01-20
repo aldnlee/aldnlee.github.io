@@ -1,0 +1,228 @@
+body 
+{
+  height: 768px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width:768px)
+{
+body 
+{
+  font-family: "Saira, sans-serif";
+  height: 760px;
+  display: flex;
+}
+}
+
+*case study*/
+.project_banner
+{
+  background-color: #121212;
+  margin-top: -100px;
+  padding-top: 0px;
+  width: 1366px;
+  height: 1850px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.poto
+{
+  width: 600px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+#mrg_dtl
+{
+  margin-top: 50px;
+}
+
+.project_banner h1
+{
+  color: #fdfdfd;
+  width: 140px;
+  height: 30px;
+  border-radius: 40px;
+  background: linear-gradient(#121212, #121212) padding-box,
+  linear-gradient(to right, #d9d9d9 0%, #d9d9d9 100%) border-box;  
+  border: 1px solid transparent;
+  align-items: center;
+  text-align: center;
+  padding-top: 4px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.project_banner h2
+{
+  padding-top: 5px;
+  margin-bottom: 30px;
+  font-size: 42px;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #fff;
+}
+.project_banner .dtl_project p.dtl_title
+{
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: #55abff;
+}
+.project_banner .dtl_project
+{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 600px;
+}
+.project_banner .dtl_project p
+{
+  color: #fff;
+  padding: 0px 0px 0px 0px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.project_banner .dtl_project p.cap
+{
+  margin-bottom: 4px;
+  color: #636363;
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+
+.button_project {
+  width: 600px;
+  height: 40px;
+  background: linear-gradient(#121212, #121212) padding-box,
+  linear-gradient(to right, #ff5c6f 10%, #55abff 90%) border-box;  
+  border: 1px solid transparent;
+  border-radius: 40px;
+  padding: 0px 0px 2px 0px;
+  margin-top: 10px;
+}
+.button_project:hover {
+  background-color: #222222;
+  background: linear-gradient(#121212, #121212) padding-box,
+  linear-gradient(to right, #ff5c6f 10%, #55abff 90%) border-box;  
+  border: 1px solid transparent;
+}
+.button_project a {
+  color: #636363;
+font-weight: 500;
+font-size: 14px;
+text-align: center;
+}
+.button_project:hover a{
+  color: white;
+}
+
+.button_project1 {
+    width: 600px;
+    height: 40px;
+    border: 1.5px #636363 solid;
+    background-color: #121212;
+    border-radius: 40px;
+    padding: 0px 0px 2px 0px;
+    margin-top: 10px;
+  }
+  .button_project1:hover {
+    background-color: #222222;
+    border: 0.8px #fff solid;
+  }
+  .button_project1 a {
+    color: #636363;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  }
+  .button_project1:hover a{
+    color: white;
+  }
+/*Project*/
+
+
+
+@media (max-width:768px)
+{
+  .project_banner
+{
+  margin: -200px auto 0px auto;
+  padding-top: 0px;
+  width: 360px;
+  height: 760px;
+  background: #121212;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.project_banner h2
+{
+  padding-top: 5px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #fff;
+}
+.project_banner .dtl_project
+{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 330px;
+}
+.project_banner .dtl_project p
+{
+  color: #fff;
+  padding: 0px 0px 0px 0px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.poto
+{
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 100% 0;
+  width: 330px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.button_project {
+    width: 330px;
+    height: 40px;
+    background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(to right, #ff5c6f 10%, #55abff 90%) border-box;  
+    border: 1px solid transparent;
+    border-radius: 40px;
+    padding: 0px 0px 2px 0px;
+    margin-top: 10px;
+  }
+  .button_project1 {
+    width: 330px;
+    height: 40px;
+    border: 1.5px #636363 solid;
+    background-color: #121212;
+    border-radius: 40px;
+    padding: 0px 0px 2px 0px;
+    margin-top: 10px;
+  }
+}
