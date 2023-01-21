@@ -56,10 +56,10 @@ body
   background-color:hsla(0,0%,0%,1);
   background-image:
   radial-gradient(at 41% 71%, hsla(24,0%,0%,1) 0px, transparent 50%),
-  radial-gradient(at 0% 44%, hsla(339,0%,0%,1) 0px, transparent 50%),
-  radial-gradient(at 0% 32%, hsla(26,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 6% 44%, hsla(339,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 32%, hsla(0, 0%, 0%, 1) 0px, transparent 50%),
   radial-gradient(at 8% 69%, hsla(248,0%,0%,1) 0px, transparent 50%),
-  radial-gradient(at 25% 0%, #d9d9d9 0px, transparent 50%),
+  radial-gradient(at 25% 0%, #8F1FFF 0px, transparent 50%),
   radial-gradient(at 64% 0%, #55abff 0px, transparent 50%);
   height: 768px;
   width: 1366px;
@@ -126,7 +126,7 @@ body
   .title_pre span
   {
     font-size: 36px;
-    background-image:linear-gradient(119.39deg, #ff6 6.43%, #ff55c6 49.87%, #1FC8FF 91.42%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;background-repeat:no-repeat"
+    background-image:linear-gradient(119.39deg, #8F1FFF 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;background-repeat:no-repeat"
   }
 
 }
@@ -197,7 +197,7 @@ display: none;
 .bxo_banner {
   flex-grow: 0;
   flex-direction: column-reverse;
-  margin: 95px 0px 0px 0px;
+  margin: 35px 0px 0px 0px;
   border-radius: 6px;
   box-shadow: #707070;
   height: 300px;
@@ -950,11 +950,17 @@ color: #636363;
 {
   overflow: hidden;
   display: none;
-  background-color: aqua;
+  background-color: #121212;
   border-radius: 1rem;
   position: relative;
   margin: 0.5rem;
   height: 300px;
+}
+.toto
+{
+  width: 360px;
+  margin-top: -27px;
+  margin-left: -17px;
 }
 
 @media (max-width:768px)
@@ -1023,7 +1029,7 @@ color: #636363;
 .w-grid1
 {
   overflow: hidden;
-  background-color: aqua;
+  background-color: #121212;
   border-radius: 1rem;
   position: relative;
   margin: 0.5rem;
@@ -4267,7 +4273,7 @@ text-align: center;
     width: 115px;
     height: 40px;
     background: linear-gradient(#000,#000) padding-box,
-                linear-gradient(45deg, #ff6 5%, #ff55c6 20%, #55abff 50%) border-box;
+                linear-gradient(45deg, #55abff 10%, #55abff 60%, #55abff 90%) border-box;
     border: 1.5px solid transparent;
     border-radius: 40px;
     padding: 6px 0px 0px 2px;
@@ -4293,7 +4299,7 @@ text-align: center;
       width: 115px;
       height: 40px;
       background: linear-gradient(#000,#000) padding-box,
-                  linear-gradient(45deg, #ff6 10%, #ff55c6 60%, #55abff 90%) border-box;
+                  linear-gradient(45deg, #55abff 10%, #55abff 60%, #55abff 90%) border-box;
       border: 1.5px solid transparent;
       border-radius: 40px;
       padding: 6px 0px 0px 2px;
@@ -4303,7 +4309,7 @@ text-align: center;
     width: 115px;
       height: 40px;
       background: linear-gradient(#121212,#121212) padding-box,
-                  linear-gradient(45deg, #ff6 10%, #ff55c6 60%, #55abff 90%) border-box;
+                  linear-gradient(45deg, #55abff 10%, #55abff 60%, #55abff 90%) border-box;
       border: 1.5px solid transparent;
       border-radius: 40px;
       padding: 6px 0px 0px 2px;
