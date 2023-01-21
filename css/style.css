@@ -385,7 +385,7 @@ a {
     display: flex;
     margin: auto;
     background: #121212;
-    height: 750px;
+    height: 780px;
     width: 360px;
     justify-content: center;
   }
@@ -4121,16 +4121,19 @@ h6 {
 .fot_title
 {
   justify-content: center;
-  display:flex;
-  width: 60px;
-  height: 10px;
+  display: flex;
+  width: 54px;
+  height: 54px;
+  border-radius: 40px;
+  background-color: #d9d9d9;
+  padding-top: 2px;
 }
 .fot_title img
 {
   height: 50px;
   border-radius: 40px;
   background: linear-gradient(#121212, #121212) padding-box,
-  linear-gradient(45deg, #d9d9d9 6%, #d9d9d9 100%) border-box;  
+  linear-gradient(45deg, #000 6%, #000 100%) border-box;  
   border: 2px solid transparent;
 }
 .fot_button
@@ -4273,14 +4276,16 @@ text-align: center;
     width: 115px;
     height: 40px;
     background: linear-gradient(#000,#000) padding-box,
-                linear-gradient(45deg, #55abff 10%, #55abff 60%, #55abff 90%) border-box;
+                linear-gradient(45deg, #d9d9d9 10%, #d9d9d9 60%, #d9d9d9 90%) border-box;
     border: 1.5px solid transparent;
     border-radius: 40px;
     padding: 6px 0px 0px 2px;
   }
    
   .button1_e:hover {
-    background-color: #121212;
+    background: linear-gradient(#121212,#121212) padding-box,
+    linear-gradient(45deg, #55abff 10%, #55abff 60%, #d9d9d9 90%) border-box;
+    border: 1.5px solid transparent;
     color: white;
     box-shadow: 0 1px 40px rgba(235, 235, 235, 0.1);
   }
@@ -4299,7 +4304,7 @@ text-align: center;
       width: 115px;
       height: 40px;
       background: linear-gradient(#000,#000) padding-box,
-                  linear-gradient(45deg, #55abff 10%, #55abff 60%, #55abff 90%) border-box;
+                  linear-gradient(45deg, #d9d9d9 10%, #d9d9d9 60%, #d9d9d9 90%) border-box;
       border: 1.5px solid transparent;
       border-radius: 40px;
       padding: 6px 0px 0px 2px;
@@ -4309,7 +4314,7 @@ text-align: center;
     width: 115px;
       height: 40px;
       background: linear-gradient(#121212,#121212) padding-box,
-                  linear-gradient(45deg, #55abff 10%, #55abff 60%, #55abff 90%) border-box;
+                  linear-gradient(45deg, #55abff 10%, #55abff 60%, #d9d9d9 90%) border-box;
       border: 1.5px solid transparent;
       border-radius: 40px;
       padding: 6px 0px 0px 2px;
