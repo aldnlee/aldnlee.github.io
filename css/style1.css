@@ -107,7 +107,7 @@ body
   width: 600px;
   height: 40px;
   background: linear-gradient(#121212, #121212) padding-box,
-  linear-gradient(to right, #8F1FFF 10%, #55abff 90%) border-box;  
+  linear-gradient(to right, #fdfdfd 10%, #fdfdfd 90%) border-box;  
   border: 1px solid transparent;
   border-radius: 40px;
   padding: 0px 0px 2px 0px;
@@ -116,7 +116,7 @@ body
 .button_project:hover {
   background-color: #222222;
   background: linear-gradient(#121212, #121212) padding-box,
-  linear-gradient(to right, #8F1FFF 10%, #55abff 90%) border-box;  
+  linear-gradient(to right, #fdfdfd 10%, #fdfdfd 90%) border-box;  
   border: 1px solid transparent;
 }
 .button_project a {
@@ -211,7 +211,7 @@ text-align: center;
     width: 330px;
     height: 40px;
     background: linear-gradient(#121212, #121212) padding-box,
-    linear-gradient(to right, #8F1FFF 10%, #55abff 90%) border-box;  
+    linear-gradient(to right, #fdfdfd 10%, #fdfdfd 90%) border-box;  
     border: 1px solid transparent;
     border-radius: 40px;
     padding: 0px 0px 2px 0px;
