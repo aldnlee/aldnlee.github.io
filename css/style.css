@@ -126,7 +126,7 @@ body
   .title_pre span
   {
     font-size: 36px;
-    background-image:linear-gradient(119.39deg, #8F1FFF 6.43%, #8F1FFF 49.87%, #1FC8FF 91.42%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;background-repeat:no-repeat"
+    background-image:linear-gradient(119.39deg, #8F1FFF 6.43%, #55abff 69.87%, #1FC8FF 91.42%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;background-repeat:no-repeat"
   }
 
 }
@@ -958,9 +958,9 @@ color: #636363;
 }
 .toto
 {
-  width: 360px;
-  margin-top: -27px;
-  margin-left: -17px;
+  width: 330px;
+  margin-top: -20px;
+  margin-left: -10px;
 }
 
 @media (max-width:768px)
@@ -4284,7 +4284,7 @@ text-align: center;
    
   .button1_e:hover {
     background: linear-gradient(#121212,#121212) padding-box,
-    linear-gradient(45deg, #55abff 10%, #55abff 60%, #d9d9d9 90%) border-box;
+    linear-gradient(45deg, #55abff 10%, #55abff 40%, #d9d9d9 90%) border-box;
     border: 1.5px solid transparent;
     color: white;
     box-shadow: 0 1px 40px rgba(235, 235, 235, 0.1);
@@ -4314,7 +4314,7 @@ text-align: center;
     width: 115px;
       height: 40px;
       background: linear-gradient(#121212,#121212) padding-box,
-                  linear-gradient(45deg, #55abff 10%, #55abff 60%, #d9d9d9 90%) border-box;
+                  linear-gradient(45deg, #55abff 10%, #55abff 40%, #d9d9d9 90%) border-box;
       border: 1.5px solid transparent;
       border-radius: 40px;
       padding: 6px 0px 0px 2px;

@@ -115,7 +115,7 @@ body
 }
 .button_project:hover {
   background-color: #222222;
-  background: linear-gradient(#121212, #121212) padding-box,
+  background: linear-gradient(#222222, #222222) padding-box,
   linear-gradient(to right, #fdfdfd 10%, #fdfdfd 90%) border-box;  
   border: 1px solid transparent;
 }
