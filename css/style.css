@@ -855,7 +855,7 @@ color: #636363;
   margin: auto;
   padding-top: 0px;
   width: 360px;
-  height: 2200px;
+  height: 2300px;
   background: #121212;
   justify-content: center;
   align-items: center;
@@ -4134,6 +4134,17 @@ h6 {
   justify-content: top;
   height: 200px;
   width:330px;
+}
+.container_skil p
+{
+color: white;
+font-size: 20px;
+}
+.container_skil #t_dtl
+{
+  color: #636363;
+  font-size: 16px;
+  padding-top: 20px;
 }
 @media (max-width:768px)
 {
