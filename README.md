@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 This is My Website Portfolio, this web include my UIUX Design and also Graphic Design Portfolio. I also update this website regularly.
 
 <!--
 **aldnlee/aldnlee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
