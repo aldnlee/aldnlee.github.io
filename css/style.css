@@ -963,6 +963,20 @@ color: #636363;
   margin-top: -20px;
   margin-left: 25px;
 }
+.totos
+{
+  width: 300px;
+  height: 350px;
+  margin-top: -20px;
+  margin-left: 40px;
+}
+.totoss
+{
+  width: 350px;
+  height: 350px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
 .toto1
 {
   width: 300px;
@@ -979,6 +993,20 @@ color: #636363;
   height: 380px;
   margin-top: -30px;
   margin-left: -30px;
+}
+.totos
+{
+  width: 350px;
+  height: 350px;
+  margin-top: -20px;
+  margin-left: 0px;
+}
+.totoss
+{
+  width: 350px;
+  height: 350px;
+  margin-top: -20px;
+  margin-left: 0px;
 }
   .prouject1
 {
@@ -4575,7 +4603,7 @@ margin: 20px auto 80px auto;
 display: flex;
 width: 320px;
 height: 320px;
-background-color: aqua;
+background-color: #fdfdfd;
 border-radius: 1rem;
 margin: auto;
 }
@@ -4584,7 +4612,7 @@ margin: auto;
 display: flex;
 width: 320px;
 height: 320px;
-background-color: aqua;
+background-color: #fdfdfd;
 border-radius: 1rem;
 margin: auto;
 }
