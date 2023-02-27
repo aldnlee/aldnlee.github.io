@@ -691,6 +691,44 @@ margin: 40px auto 20px auto;
   text-align: center;
 }
 }
+/*nyoba*/
+.pjt{
+  display: flex ;
+  align-items: top;
+  margin: auto;
+}
+.pjt-dtl {
+  margin: 0px auto 80px auto;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 1200px;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.pjt-dtl .row
+{
+display: flex;
+overflow: hidden;
+width: 600px;
+height: 500px;
+background-color: white;
+margin-right: 5px;
+border-radius: 10px;
+border: 1px inset #fdfdfd;
+}
+.pjt-dtl .row1
+{
+display: flex;
+overflow: hidden;
+width: 600px;
+height: 300px;
+background-color: white;
+margin-left: 5px;
+border-radius: 10px;
+border: 1px inset #fdfdfd;
+}
 /*case study*/
 .project_banner
 {
@@ -698,24 +736,24 @@ margin: 40px auto 20px auto;
   margin: 0px auto 0px auto;
   padding-top: 0px;
   width: 1366px;
-  height: 2250px;
+  height: 500px;
   justify-content: center;
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .poto
 {
   width: 600px;
   height: 300px;
-  margin-top: 20px;
+  margin-top: 0px;
   border-radius: 10px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 #mrg_dtl
 {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .project_banner h1
@@ -777,7 +815,13 @@ margin: 40px auto 20px auto;
   line-height: 1.2;
 }
 
-
+.pb-1{
+ margin-right: 10px;
+}
+.pb-2
+{
+  margin-left: 10px;
+}
 .button_project {
   width: 120px;
   height: 30px;
@@ -855,7 +899,7 @@ color: #636363;
   margin: auto;
   padding-top: 0px;
   width: 360px;
-  height: 2300px;
+  height: 1040px;
   background: #121212;
   justify-content: center;
   align-items: center;
@@ -892,7 +936,7 @@ color: #636363;
 .poto
 {
   height: 300px;
-  margin-top: 20px;
+  margin-top: 0px;
   border-radius: 10px;
   object-fit: cover;
   object-position: 100% 0;
@@ -900,6 +944,13 @@ color: #636363;
   margin-top: 20px;
   border-radius: 10px;
 }
+.pb-1{
+  margin: 30px auto;
+ }
+ .pb-2
+ {
+   margin: 30px auto;
+ }
 }
 
 /*Prouject*/
@@ -910,6 +961,7 @@ color: #636363;
 .prouject1
 {
   height: 140px;
+  margin-top: 80px;
   align-items: center;
   display: flex;
   flex-direction: column;
